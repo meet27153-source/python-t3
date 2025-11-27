@@ -1,0 +1,4 @@
+name:alice
+age:21
+degree:CSE_DS
+university:Northern university
