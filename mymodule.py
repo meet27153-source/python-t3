@@ -1,0 +1,23 @@
+def myString(s):
+    print("Length:",len(s))
+    print("Upper:",s.upper())
+    print("Lower:",s.lower())
+    print("Title:",s.title())
+    print("Capitalize:",s.capitalize())
+    print("isUpper:",s.isupper())
+    print("isLower:",s.islower())
+#     print("isTitle:",istitle())
+#     print("isAlpha:",isalpha())
+#     print("isDigit:",isdigit())
+#     print("isAlnum:",isalnum())
+    
+def mylist(l):
+    print("Length:",len(l))
+    l.append(40)
+    print("Append:",l)
+    l.extend([10,20,30])
+    print("Extend:",l)
+    l.sort()
+    print("Sort:",l)
+    l.reverse()
+    print("Reverse:",l)
